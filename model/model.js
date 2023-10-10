@@ -63,13 +63,15 @@ class Modell{
         }
     }
     fuggolegesGyozelem(){
-        let vEll=this.#lista[0]+this.#lista[3]+this.#lista[6]+this.#lista[1]+this.#lista[4]+this.#lista[7]+this.#lista[2]+this.#lista[5]+this.#lista[8];
+        let vEll="";
+        vEll += this.#lista[0]+this.#lista[3]+this.#lista[6]+this.#lista[1]+this.#lista[4]+this.#lista[7]+this.#lista[2]+this.#lista[5]+this.#lista[8];
         this.#vege.push(vEll);
         console.log(vEll)
         return this.#vege;
     }
     ferdeGyozelem(){
-        let vEll=this.#lista[0]+this.#lista[4]+this.#lista[8]+this.#lista[3]+this.#lista[4]+this.#lista[5];
+        let vEll="";
+        vEll += this.#lista[0]+this.#lista[4]+this.#lista[8]+this.#lista[3]+this.#lista[4]+this.#lista[5];
         this.#vege.push(vEll);
         return this.#vege;
     }
